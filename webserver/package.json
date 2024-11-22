@@ -1,0 +1,16 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "Servidor Web de prueba",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webserver",
+    "web",
+    "server"
+  ],
+  "author": "Jorge Adrián Reyes González",
+  "license": "ISC"
+}
