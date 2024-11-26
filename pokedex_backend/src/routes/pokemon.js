@@ -11,4 +11,4 @@ pokemonRouter.delete('/:id',deletePokemon),
 
 module.exports={
     pokemonRouter
-}
+};

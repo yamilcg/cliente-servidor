@@ -1,0 +1,25 @@
+GET http://localhost:3000/pokemons_types
+
+###
+GET http://localhost:3000/pokemons_types/10
+
+###
+POST http://localhost:3000/pokemons_types
+Content-Type: application/json
+
+{
+    "pokemon_id": 80,
+    "type_id": 7
+}
+
+###
+PUT http://localhost:3000/pokemons_types/40
+Content-Type: application/json
+
+{
+    "pokemon_id": 25,
+    "type_id": 2
+}
+
+###
+DELETE http://localhost:3000/pokemons_types/40

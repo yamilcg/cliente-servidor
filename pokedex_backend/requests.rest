@@ -1,18 +1,18 @@
 GET http://localhost:3000/pokemon
 
 ###
-GET http://localhost:3000/pokemon/1
+GET http://localhost:3000/pokemon/10
 
 ###
 POST http://localhost:3000/pokemon
 Content-Type: application/json
 
 {
-    "pokemon":"Bulbasaur"
+    "pokemon":"Bulbas"
 }
 
 ###
-PUT  http://localhost:3000/pokemon/4
+PUT  http://localhost:3000/pokemon/152
 Content-Type: application/json
 
 {
@@ -20,4 +20,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE  http://localhost:3000/pokemon/1
+DELETE  http://localhost:3000/pokemon/152

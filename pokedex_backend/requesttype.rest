@@ -1,0 +1,23 @@
+GET http://localhost:3000/type
+
+###
+GET http://localhost:3000/type/11
+
+###
+POST http://localhost:3000/type
+Content-Type: application/json
+
+{
+    "type": "Hada"
+}
+
+###
+PUT http://localhost:3000/type/18
+Content-Type: application/json
+
+{
+    "type": "flying"
+}
+
+###
+DELETE http://localhost:3000/type/18
