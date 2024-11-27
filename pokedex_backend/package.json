@@ -1,17 +1,29 @@
 {
   "name": "pokedex_backend",
   "version": "1.0.0",
+<<<<<<< HEAD
   "main": "index.js",
+=======
+  "main": "app.js",
+>>>>>>> 11dba70cfad087699347a70af51cb79772a28823
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+<<<<<<< HEAD
   "description": "",
   "dependencies": {
     "express": "^4.21.1",
     "mariadb": "^3.4.0",
     "node-fetch": "^3.3.2"
   }
+=======
+  "dependencies": {
+    "express": "^4.21.1",
+    "mariadb": "^3.4.0"
+  },
+  "description": ""
+>>>>>>> 11dba70cfad087699347a70af51cb79772a28823
 }

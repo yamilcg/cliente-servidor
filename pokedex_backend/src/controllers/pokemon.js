@@ -154,4 +154,8 @@ module.exports = {
     addPokemon,
     updatePokemon,
     deletePokemon,
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 11dba70cfad087699347a70af51cb79772a28823

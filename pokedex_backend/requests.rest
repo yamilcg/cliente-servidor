@@ -1,13 +1,18 @@
 GET http://localhost:3000/pokemon
 
 ###
+<<<<<<< HEAD
 GET http://localhost:3000/pokemon/10
+=======
+GET http://localhost:3000/pokemon/2
+>>>>>>> 11dba70cfad087699347a70af51cb79772a28823
 
 ###
 POST http://localhost:3000/pokemon
 Content-Type: application/json
 
 {
+<<<<<<< HEAD
     "pokemon":"Bulbas"
 }
 
@@ -21,3 +26,10 @@ Content-Type: application/json
 
 ###
 DELETE  http://localhost:3000/pokemon/152
+=======
+    "pokemon": "Mewtwo"
+}
+
+###
+DELETE http://localhost:3000/pokemon/4
+>>>>>>> 11dba70cfad087699347a70af51cb79772a28823

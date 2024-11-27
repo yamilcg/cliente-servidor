@@ -1,19 +1,29 @@
 const express = require('express');
+<<<<<<< HEAD
 const { pokemonRouter } = require('./routes/pokemon');
 const { typeRouter } = require('./routes/type');
 const { pokemonsTypesRouter } = require('./routes/pokemons_types');
 
 // Crear clase
+=======
+const {pokemonRouter} = require('./routes/pokemon');
+
+>>>>>>> 11dba70cfad087699347a70af51cb79772a28823
 class Server {
     constructor() {
         this.app = express();
         this.port = 3000;
 
         this.seeders();
+<<<<<<< HEAD
+=======
+
+>>>>>>> 11dba70cfad087699347a70af51cb79772a28823
         this.middlewares();
         this.routes();
     }
 
+<<<<<<< HEAD
     middlewares() {
         this.app.use(express.json()); // Middleware para parsear los cuerpos de las solicitudes JSON
     }
@@ -40,3 +50,27 @@ class Server {
 module.exports = {
     Server
 };
+=======
+middlewares(){
+    this.app.use(express.json());
+}
+
+routes(){
+    this.app.use('/pokemon', pokemonRouter);
+}
+
+seeders(){
+    require('./seeds/pokemon').pokemonSeeder();
+}
+
+start() {
+    this.app.listen(this.port, () => {
+        console.log('Servidor corriendo en el puerto' + this.port);
+    });
+}
+}
+
+module. exports = {
+    Server
+};
+>>>>>>> 11dba70cfad087699347a70af51cb79772a28823
